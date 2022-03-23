@@ -814,6 +814,8 @@ cart-remove-button .icon-remove {
     }
   }
 
-
+.announcement-bar .newsticker div {
+    display: flex;
+}
 
 /*** header css End ***/
