@@ -31,6 +31,9 @@
   {%- for block in section.blocks -%}
   <p class="announcement-bar__message h5"> {{ block.settings.text }} {%- if block.settings.link != blank -%} {% render 'icon-arrow' %} {%- endif -%} </p>
   {%- endfor -%}
+  {%- for block in section.blocks -%}
+  <p class="announcement-bar__message h5"> {{ block.settings.text }} {%- if block.settings.link != blank -%} {% render 'icon-arrow' %} {%- endif -%} </p>
+  {%- endfor -%}
 </marquee>
 
 
