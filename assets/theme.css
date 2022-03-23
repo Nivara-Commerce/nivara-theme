@@ -1749,8 +1749,13 @@ slideshow-component:not(.page-width) .slider-buttons {
     border-color: #fff;
 }
 .slideshow__controls  span.dot {
-    
     border-color: #fff;
+}
+.slideshow__controls button.slider-button {
+    color: #fff;
+}
+.slideshow__controls button.slider-button svg.icon {
+    height: 0.9rem;
 }
 
 /*** Slideshow css End ***/
