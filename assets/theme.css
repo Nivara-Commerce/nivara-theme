@@ -2099,8 +2099,15 @@ slideshow-component:not(.page-width) .slider-buttons {
 .card-article-info {
   margin-top: 1rem;
 }
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
   
-  /*** collection list css End ***/
+/*** collection list css End ***/
 
 
 
