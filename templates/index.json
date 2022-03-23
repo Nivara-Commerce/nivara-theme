@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/theme-banner1.jpg",
-            "heading": "SHOP OUR NEW COLLECTION",
+            "heading": "Must Haves For The Season",
             "heading_size": "h0",
             "subheading": "From Hight To Low, Classic Or Modern. We Have You Covered",
             "button_label": "Shop now",
@@ -25,9 +25,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/theme-banner2.jpg",
-            "heading": "SUMMER BIKINI COLLECTION",
+            "heading": "The Hotlist of Summer",
             "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
+            "subheading": "Uncompromising in style, quality and performance",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
