@@ -1101,9 +1101,9 @@ summary::-webkit-details-marker {
     width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
     max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
 }
-  .grid--3-col-desktop.collection-list--4-items .grid__item {
-    width: calc(25% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
-    max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+.grid--3-col-desktop.collection-list--4-items .grid__item {
+    width: calc(24.9% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+    max-width: calc(24.9% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
 }
 }
 
