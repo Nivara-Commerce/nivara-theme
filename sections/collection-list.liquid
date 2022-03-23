@@ -27,8 +27,8 @@
       <div class="title-wrapper-with-link{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
         <h2 class="collection-list-title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
   
-        {%- if section.settings.show_view_all and show_mobile_slider -%}
-          <a href="{{ routes.collections_url }}" class="link underlined-link large-up-hide">{{ 'sections.collection_list.view_all' | t }}</a>
+        {%- if section.settings.show_view_all -%}
+          <a href="{{ routes.collections_url }}" class="button  small-hide medium-hide">{{ 'sections.collection_list.view_all' | t }}</a>
         {%- endif -%}
       </div>
     {%- endunless -%}
@@ -54,7 +54,7 @@
     </div>
   
     {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
-      <div class="center collection-list-view-all{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
+      <div class="center collection-list-view-all large-up-hide">
         <a href="{{ routes.collections_url }}" class="button">{{ 'sections.collection_list.view_all' | t }}</a>
       </div>
     {%- endif -%}
