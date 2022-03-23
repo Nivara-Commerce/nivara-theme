@@ -816,26 +816,17 @@ cart-remove-button .icon-remove {
 
 .marquee {
    margin: 2rem 0;
-   font-size: 8vw;
    overflow: hidden;
 }
 
-.marquee--long {
-    display: flex;
-}
 
 .marquee span {   
     display: inline-block;
     white-space: nowrap;
     color: #00112C;
-    width: var(--tw);
-    text-shadow: var(--tw) 0 currentColor, 
-                 calc(var(--tw) * 2) 0 currentColor, 
-                 calc(var(--tw) * 3) 0 currentColor,
-                 calc(var(--tw) * 4) 0 currentColor;
-   
+    width: 100%;
     will-change: transform;
-    animation: marquee var(--ad) linear infinite;
+    animation: marquee 12s linear infinite;
     animation-play-state: paused;
 }
 
