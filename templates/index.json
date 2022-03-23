@@ -71,12 +71,14 @@
         },
         "1648033016563dae3c-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "fashion"
           }
         },
         "0b61f6c5-1171-47fe-bc5a-f80bb33122f8": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "jewelry"
           }
