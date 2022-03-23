@@ -1,4 +1,4 @@
-<div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+<div class="announcement-bar color-{{ section.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ section.shopify_attributes }}>
   <div class="top-carousel">
     {%- for block in section.blocks -%}
     {%- case block.type -%}
@@ -29,6 +29,36 @@
 {
   "name": "t:sections.announcement-bar.name",
   "max_blocks": 12,
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.header.settings.color_scheme.options__1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.header.settings.color_scheme.options__2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.header.settings.color_scheme.options__3.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.header.settings.color_scheme.options__4.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.header.settings.color_scheme.options__5.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.header.settings.color_scheme.label"
+    }
+],
   "blocks": [
     {
       "type": "announcement",
