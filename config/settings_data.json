@@ -104,7 +104,6 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "color_scheme": "background-1",
               "link": ""
             }
           },
@@ -112,7 +111,6 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "color_scheme": "accent-1",
               "link": ""
             }
           },
@@ -120,7 +118,6 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "color_scheme": "background-2",
               "link": ""
             }
           }
@@ -131,6 +128,7 @@
           "74a3e0e0-75a0-4043-aa9a-c7862cc15ad7"
         ],
         "settings": {
+          "color_scheme": "accent-2"
         }
       },
       "header": {
