@@ -31,12 +31,32 @@
   $(document).ready(function() {
     $('.top-carousel').owlCarousel({
       loop: true,
-      items: 1,
       margin: 10,
       dots: false,
       autoplay:false,
-autoplayTimeout:5000,
-autoplayHoverPause:false
+autoplayTimeout:1000,
+autoplayHoverPause:false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false,
+      dots: false,
+          loop: false
+        },
+        600: {
+          items: 1,
+          nav: false,
+      dots: false,
+          loop: false
+        },
+        1000: {
+          items: 1,
+          nav: false,
+      dots: false,
+          loop: false,
+          margin: 20
+        }
       }
     })
   })
