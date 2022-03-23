@@ -33,7 +33,7 @@
       </div>
     {%- endunless -%}
   
-    <slider-component class="slider-mobile-gutter">
+    <div class="">
       <ul class="collection-list contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid{% if section.settings.columns_desktop == 1 %} grid--full-width{% else %} grid--{{ section.settings.columns_desktop }}-col-desktop{% endif %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
         id="Slider-{{ section.id }}"
         role="list"
@@ -51,7 +51,7 @@
         {%- endfor -%}
       </ul>
       
-    </slider-component>
+    </div>
   
     {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
       <div class="center collection-list-view-all{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
@@ -60,6 +60,33 @@
     {%- endif -%}
   </div>
 </div>
+
+
+
+<script>
+  $(document).ready(function() {
+    $('.collection-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      dots: false,
+      autoplay:true,
+autoplayTimeout:2000,
+autoplayHoverPause:true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  })
+</script>
 
 {% schema %}
 {
