@@ -29,7 +29,7 @@
 
 
 <div class="marquee marquee--long" style="--tw: 235ch; --ad: 12s;">
-  
+  <span class="announcement-bar__message h5">
    {%- for block in section.blocks -%}
       {%- case block.type -%}
       {%- when 'announcement' -%}
@@ -37,12 +37,11 @@
         {%- if block.settings.link != blank -%}
         <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
-          <span class="announcement-bar__message h5">
+          
             {{ block.settings.text | escape }}
             {%- if block.settings.link != blank -%}
             {% render 'icon-arrow' %}
             {%- endif -%}
-          </span>
           {%- if block.settings.link != blank -%}
         </a>
         {%- endif -%}
@@ -51,6 +50,7 @@
       {%- endcase -%}
       {%- endfor -%}
   
+          </span>
 	
 </div>
 
