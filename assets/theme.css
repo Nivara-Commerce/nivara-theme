@@ -1748,7 +1748,7 @@ slideshow-component:not(.page-width) .slider-buttons {
     background-color: #fff;
     border-color: #fff;
 }
-.slideshow__controls  span.dot, .slideshow__controls  span.dot:hover {
+.slideshow__controls  span.dot, .slideshow__controls .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
     border-color: #fff;
 }
 .slideshow__controls button.slider-button, .slideshow__controls button.slider-button:hover {
