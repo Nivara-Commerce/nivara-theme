@@ -27,7 +27,7 @@
   </div>
 </div>
 
-
+{%- for block in section.blocks -%}
 <marquee class="scrollTop"  scrollamount="1.8", scrolldelay="15">
                 <p class="announcement-bar__message h5"> {{ block.settings.text }} {%- if block.settings.link != blank -%} {% render 'icon-arrow' %} {%- endif -%} </p>
                 <p class="announcement-bar__message h5"> {{ block.settings.text }} {%- if block.settings.link != blank -%} {% render 'icon-arrow' %} {%- endif -%} </p>
@@ -40,6 +40,8 @@
                 <p class="announcement-bar__message h5"> {{ block.settings.text }} {%- if block.settings.link != blank -%} {% render 'icon-arrow' %} {%- endif -%} </p>
                 <p class="announcement-bar__message h5"> {{ block.settings.text }} {%- if block.settings.link != blank -%} {% render 'icon-arrow' %} {%- endif -%} </p>
               </marquee>
+
+      {%- endfor -%}
 
 
 
