@@ -824,7 +824,7 @@ cart-remove-button .icon-remove {
    font-size: 1.25vw; 
 }
 
-.marquee p {   
+.marquee span {   
     display: inline-block;
     white-space: nowrap;
     color: #00112C;
@@ -839,7 +839,7 @@ cart-remove-button .icon-remove {
     animation-play-state: paused;
 }
 
-.marquee p {
+.marquee span {
     animation-play-state: running;
 }
 
@@ -855,7 +855,7 @@ cart-remove-button .icon-remove {
  */
 
 @media (prefers-reduced-motion: reduce) {
-  .marquee p {
+  .marquee span {
     animation: none;
     text-shadow: none;
     width: auto;
