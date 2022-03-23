@@ -136,7 +136,8 @@
           "502d972f-a85b-4806-8d4a-81e02ff3fcea"
         ],
         "settings": {
-          "color_scheme": "accent-2"
+          "color_scheme": "accent-2",
+          "announce_type": "rotating"
         }
       },
       "header": {
