@@ -936,7 +936,6 @@ summary::-webkit-details-marker {
 }
 
 .title-wrapper-with-link a {
-  color: rgb(var(--color-link));
   margin-top: 0;
   flex-shrink: 0;
 }
