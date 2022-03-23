@@ -820,8 +820,8 @@ cart-remove-button .icon-remove {
    overflow: hidden;
 }
 
-.marquee--long { 
-   font-size: 1.25vw; 
+.marquee--long {
+    display: flex;
 }
 
 .marquee span {   
