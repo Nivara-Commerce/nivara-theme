@@ -1,6 +1,14 @@
 
 
 /*** header css Start ***/
+header.header.header--middle-left-menu-center {
+    display: flex;
+    column-gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    flex: 1 0 auto;
+}
 .list-menu--right {
   right: 0;
 }
