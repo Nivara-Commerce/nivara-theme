@@ -1736,7 +1736,13 @@ slideshow-component:not(.page-width) .slider-buttons {
   opacity: 0;
   transform: scale(.8)
 }
-
+.slideshow__controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: none;
+}
 
 /*** Slideshow css End ***/
 
