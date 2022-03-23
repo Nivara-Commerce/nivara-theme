@@ -1,5 +1,5 @@
 <div class="announcement-bar color-{{ section.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ section.shopify_attributes }}>
-  <div class="top-carousel">
+  <div class="top-carousel owl-carousel owl-theme">
     {%- for block in section.blocks -%}
     {%- case block.type -%}
     {%- when 'announcement' -%}
