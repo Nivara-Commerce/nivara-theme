@@ -34,7 +34,7 @@
     {%- endunless -%}
   
     <div class="collection_list">
-      <div class="collection-list contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid{% if section.settings.columns_desktop == 1 %} grid--full-width{% else %} grid--{{ section.settings.columns_desktop }}-col-desktop{% endif %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
+      <div class="collection-list contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid{% if section.settings.columns_desktop == 1 %} grid--full-width{% else %} grid--{{ section.settings.columns_desktop }}-col-desktop{% endif %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items {% if section.settings.collecion_type == 'grid' %}collection_grid {% elsif section.settings.collecion_type == 'carousel' %} collection-carousel owl-carousel owl-theme{% endif %}"
         id="Slider-{{ section.id }}"
         role="list"
       >
@@ -60,6 +60,8 @@
     {%- endif -%}
   </div>
 </div>
+
+{% if section.settings.collecion_type == 'grid' %}collection_grid {% elsif section.settings.collecion_type == 'carousel' %} collection-carousel owl-carousel owl-theme{% endif %}
 
 
 
