@@ -1744,6 +1744,14 @@ slideshow-component:not(.page-width) .slider-buttons {
     border: none;
   	z-index: 9;
 }
+.slideshow__controls .slider-counter__link--active span.dot {
+    background-color: #fff;
+    border-color: #fff;
+}
+.slideshow__controls  span.dot {
+    
+    border-color: #fff;
+}
 
 /*** Slideshow css End ***/
 
