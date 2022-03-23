@@ -1744,11 +1744,11 @@ slideshow-component:not(.page-width) .slider-buttons {
     border: none;
   	z-index: 9;
 }
-.slideshow__controls .slider-counter__link--active span.dot {
+.slideshow__controls .slider-counter__link--active span.dot, .slideshow__controls .slider-counter__link--active span.dot:hover {
     background-color: #fff;
     border-color: #fff;
 }
-.slideshow__controls  span.dot {
+.slideshow__controls  span.dot, .slideshow__controls  span.dot:hover {
     border-color: #fff;
 }
 .slideshow__controls button.slider-button, .slideshow__controls button.slider-button:hover {
