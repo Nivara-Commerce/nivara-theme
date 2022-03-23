@@ -1742,6 +1742,7 @@ slideshow-component:not(.page-width) .slider-buttons {
     left: 0;
     right: 0;
     border: none;
+  	z-index: 9;
 }
 
 /*** Slideshow css End ***/
