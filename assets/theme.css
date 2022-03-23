@@ -817,5 +817,8 @@ cart-remove-button .icon-remove {
 .announcement-bar .newsticker div {
     display: flex;
 }
+.announcement-bar .newsticker {
+    height: auto !important;
+}
 
 /*** header css End ***/
