@@ -34,7 +34,6 @@
       {%- case block.type -%}
       {%- when 'announcement' -%}
       {%- if block.settings.text != blank -%}
-      <div class="item">
         {%- if block.settings.link != blank -%}
         <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
@@ -47,7 +46,6 @@
           {%- if block.settings.link != blank -%}
         </a>
         {%- endif -%}
-      </div>
       {%- endif -%}
 
       {%- endcase -%}
