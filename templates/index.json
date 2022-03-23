@@ -83,7 +83,6 @@
         },
         "ba33ab8b-201d-4847-8ae6-9e5bff732fb0": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "shoes"
           }
