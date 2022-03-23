@@ -103,21 +103,28 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Save Extra 5% On Orders Above ₹999. Use Code - GET5.",
               "link": ""
             }
           },
           "44676c8c-6ffe-48bb-8a0c-4baa4fcdd6ea": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Save Extra 10% On Orders Above ₹1999. Use Code - GET10.",
               "link": ""
             }
           },
           "74a3e0e0-75a0-4043-aa9a-c7862cc15ad7": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Free Shipping Applicable On Orders Above $200.",
+              "link": ""
+            }
+          },
+          "502d972f-a85b-4806-8d4a-81e02ff3fcea": {
+            "type": "announcement",
+            "settings": {
+              "text": "Pay online & Save $50 Cash On Delivery Charges.",
               "link": ""
             }
           }
@@ -125,7 +132,8 @@
         "block_order": [
           "announcement-bar-0",
           "44676c8c-6ffe-48bb-8a0c-4baa4fcdd6ea",
-          "74a3e0e0-75a0-4043-aa9a-c7862cc15ad7"
+          "74a3e0e0-75a0-4043-aa9a-c7862cc15ad7",
+          "502d972f-a85b-4806-8d4a-81e02ff3fcea"
         ],
         "settings": {
           "color_scheme": "accent-2"
