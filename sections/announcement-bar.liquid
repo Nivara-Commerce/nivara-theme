@@ -28,7 +28,6 @@
 </div>
 
 <div class="announcement-bar color-{{ section.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ section.shopify_attributes }}>
-  <div class="page-width">
     <marquee class="scrollTop"  scrollamount="1.8", scrolldelay="15">
       {%- for block in section.blocks -%}
       <p class="announcement-bar__message h5"> {{ block.settings.text }} {%- if block.settings.link != blank -%} {% render 'icon-arrow' %} {%- endif -%} </p>
@@ -40,7 +39,6 @@
       <p class="announcement-bar__message h5"> {{ block.settings.text }} {%- if block.settings.link != blank -%} {% render 'icon-arrow' %} {%- endif -%} </p>
       {%- endfor -%}
     </marquee>
-  </div>
 </div>
 
 
