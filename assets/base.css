@@ -657,8 +657,8 @@ hr {
 
 .placeholder {
   background-color: rgba(var(--color-foreground), 0.04);
-  color: rgba(var(--color-foreground), 0.55);
-  fill: rgba(var(--color-foreground), 0.55);
+  color: rgba(var(--color-foreground), 1);
+  fill: rgba(var(--color-foreground), 1);
 }
 
 details > * {
@@ -2368,7 +2368,7 @@ input[type='checkbox'] {
   width: 100%;
   display: block;
   position: absolute;
-  background: rgba(var(--color-foreground), 0.5);
+  background: rgba(var(--color-foreground), 1);
 }
 
 /* Search */
@@ -2426,7 +2426,7 @@ details[open] .modal-overlay {
 details[open] .modal-overlay::after {
   position: absolute;
   content: '';
-  background-color: rgb(var(--color-foreground), 0.5);
+  background-color: rgb(var(--color-foreground), 1);
   top: 100%;
   left: 0;
   right: 0;
