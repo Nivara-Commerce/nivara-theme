@@ -2290,6 +2290,9 @@ slideshow-component:not(.page-width) .slider-buttons {
     width: auto;
     max-width: inherit;
 }
+  .product-carousel .owl-nav.disabled {
+    display: block;
+}
 
 /*** Featured collection css End ***/
 
