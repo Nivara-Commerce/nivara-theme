@@ -2290,7 +2290,7 @@ slideshow-component:not(.page-width) .slider-buttons {
     width: auto;
     max-width: inherit;
 }
-  .product-carousel .owl-nav.disabled {
+  .product-carousel.owl-carousel .owl-nav.disabled {
     display: block;
 }
 
