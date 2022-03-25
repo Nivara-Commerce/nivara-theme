@@ -134,25 +134,25 @@
         "16481941697942977d-0": {
           "type": "heading",
           "settings": {
-            "heading": "COMPLETE YOUR LOOK WITH TOP TRENDING STYLES",
+            "heading": "Summer Vibes.",
             "heading_size": "h1"
           }
         },
         "16481941697942977d-1": {
           "type": "text",
           "settings": {
-            "text": "Here to bring your life style to the next level. Distinguished. Individual. Character.",
+            "text": "Here to bring your life style to the next level.",
             "text_style": "body"
           }
         },
         "16481941697942977d-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Women's",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
-            "button_label_2": "Men's",
-            "button_link_2": "shopify:\/\/collections\/all",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
@@ -163,14 +163,13 @@
         "16481941697942977d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/women.jpg",
-        "image_2": "shopify:\/\/shop_images\/mens.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
+        "image": "shopify:\/\/shop_images\/women-banner.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
