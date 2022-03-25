@@ -2286,7 +2286,10 @@ slideshow-component:not(.page-width) .slider-buttons {
 .collection__view-all {
   margin-top: 2rem;
 }
-
+.product-carousel .owl-item .grid__item.item {
+    width: auto;
+    max-width: inherit;
+}
 
 /*** Featured collection css End ***/
 
