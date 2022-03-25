@@ -33,7 +33,7 @@
       <div class="title-wrapper-with-link{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %} title-wrapper--no-top-margin">
         <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
   
-        {%- if section.settings.show_view_all and section.settings.swipe_on_mobile and more_in_collection -%}
+        {%- if section.settings.show_view_all and more_in_collection -%}
           <a href="{{ section.settings.collection.url }}" class="button small-hide medium-hide">{{ 'sections.featured_collection.view_all' | t }}</a>
         {%- endif -%}
       </div>
