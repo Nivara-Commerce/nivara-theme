@@ -124,15 +124,64 @@
         "show_vendor": false,
         "show_rating": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "16481941690f01f311": {
+      "type": "image-banner",
+      "blocks": {
+        "16481941697942977d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMPLETE YOUR LOOK WITH TOP TRENDING STYLES",
+            "heading_size": "h1"
+          }
+        },
+        "16481941697942977d-1": {
+          "type": "text",
+          "settings": {
+            "text": "Here to bring your life style to the next level. Distinguished. Individual. Character.",
+            "text_style": "body"
+          }
+        },
+        "16481941697942977d-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Women's",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "Men's",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16481941697942977d-0",
+        "16481941697942977d-1",
+        "16481941697942977d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/women.jpg",
+        "image_2": "shopify:\/\/shop_images\/mens.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "164803301146c4643b",
     "1648033016f2ce4a73",
-    "164803837094edaed3"
+    "164803837094edaed3",
+    "16481941690f01f311"
   ]
 }
