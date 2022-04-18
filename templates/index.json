@@ -182,7 +182,8 @@
         "06c66019-d7c0-4734-bc13-4a293eb31645": {
           "type": "offer",
           "settings": {
-            "image_overlay_opacity": 0,
+            "image": "shopify:\/\/shop_images\/women-banner.jpg",
+            "image_overlay_opacity": 20,
             "image_height": "medium",
             "desktop_content_position": "middle-center",
             "desktop_content_alignment": "center",
@@ -197,7 +198,8 @@
         "b8b18718-d91d-45ca-a31b-bb9a27782282": {
           "type": "offer",
           "settings": {
-            "image_overlay_opacity": 0,
+            "image": "shopify:\/\/shop_images\/theme-banner1.jpg",
+            "image_overlay_opacity": 20,
             "image_height": "medium",
             "desktop_content_position": "middle-center",
             "desktop_content_alignment": "center",
