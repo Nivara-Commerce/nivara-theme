@@ -1,33 +1,6 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
-{%- if block.settings.adapt_height_first_image and block.settings.image != blank -%}
-  {%- style -%}
-  @media screen and (max-width: 749px) {
-    #Banner-{{ block.id }}::before,
-    #Banner-{{ block.id }} .banner__media::before,
-    #Banner-{{ block.id }}:not(.banner--mobile-bottom) .banner__content::before {
-      padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;
-      content: '';
-      display: block;
-    }
-  }
 
-  @media screen and (min-width: 750px) {
-    #Banner-{{ block.id }}::before,
-    #Banner-{{ block.id }} .banner__media::before {
-      padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;
-      content: '';
-      display: block;
-    }
-  }
-  {%- endstyle -%}
-{%- endif -%}
-
-{%- style -%}
-  #Banner-{{ block.id }}::after {
-    opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
-  }
-{%- endstyle -%}
 
 {%- for block in section.blocks -%}
 <div id="Banner-{{ block.id }}" class="banner banner--content-align-{{ block.settings.desktop_content_alignment }} banner--content-align-mobile-{{ block.settings.mobile_content_alignment }} banner--{{ block.settings.image_height }}{% if block.settings.stack_images_on_mobile and block.settings.image != blank and block.settings.image_2 != blank %} banner--stacked{% endif %}{% if block.settings.adapt_height_first_image and block.settings.image != blank %} banner--adapt{% endif %}{% if block.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
@@ -78,6 +51,35 @@
     </div>
   </div>
 </div>
+
+{%- if block.settings.adapt_height_first_image and block.settings.image != blank -%}
+  {%- style -%}
+  @media screen and (max-width: 749px) {
+    #Banner-{{ block.id }}::before,
+    #Banner-{{ block.id }} .banner__media::before,
+    #Banner-{{ block.id }}:not(.banner--mobile-bottom) .banner__content::before {
+      padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;
+      content: '';
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    #Banner-{{ block.id }}::before,
+    #Banner-{{ block.id }} .banner__media::before {
+      padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;
+      content: '';
+      display: block;
+    }
+  }
+  {%- endstyle -%}
+{%- endif -%}
+
+{%- style -%}
+  #Banner-{{ block.id }}::after {
+    opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+{%- endstyle -%}
 {%- endfor -%}
 
 {% schema %}
