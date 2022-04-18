@@ -2305,6 +2305,9 @@ slideshow-component:not(.page-width) .slider-buttons {
   .offer-banner .banner__content {
     padding: 25px;
 }
+  .offer-banner .banner__content .banner__box {
+    padding: 20px;
+}
 
 
 
