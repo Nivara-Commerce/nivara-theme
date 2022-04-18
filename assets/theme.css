@@ -2298,6 +2298,10 @@ slideshow-component:not(.page-width) .slider-buttons {
 .offer-banner {
     width: 50%;
 }
+  .offers-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
