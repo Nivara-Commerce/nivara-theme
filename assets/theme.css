@@ -2295,7 +2295,9 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 
 /*** Featured collection css End ***/
-
+.offer-banner {
+    width: 50%;
+}
 
 
 
