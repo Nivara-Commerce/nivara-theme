@@ -2,7 +2,9 @@
 
 
 <div class="offersec">
+  {% if section.settings.full != blank %}
   <div class="page-width">
+    {% endif %}
     <div class="offers-grid">
 {%- for block in section.blocks -%}
 <div id="Banner-{{ block.id }}" class="banner offer-banner banner--content-align-{{ block.settings.desktop_content_alignment }} banner--content-align-mobile-{{ block.settings.mobile_content_alignment }} banner--{{ block.settings.image_height }}{% if block.settings.stack_images_on_mobile and block.settings.image != blank and block.settings.image_2 != blank %} banner--stacked{% endif %}{% if block.settings.adapt_height_first_image and block.settings.image != blank %} banner--adapt{% endif %}{% if block.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
@@ -84,7 +86,9 @@
 {%- endstyle -%}
 {%- endfor -%}
 </div>
+    {% if section.settings.full != blank %}
 </div>
+  {% endif %}
 </div>
 
 {% schema %}
