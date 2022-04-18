@@ -147,7 +147,7 @@
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
@@ -190,9 +190,9 @@
             "heading": "Image with text",
             "heading_size": "h1",
             "subtext": "SJHDGLK DHGlsdg adjhfksjfglksdjfh adsfhlasdk",
-            "text_style": "caption-with-letter-spacing",
-            "button_label_1": "Button label",
-            "button_link_1": ""
+            "text_style": "body",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all"
           }
         },
         "b8b18718-d91d-45ca-a31b-bb9a27782282": {
@@ -201,14 +201,14 @@
             "image": "shopify:\/\/shop_images\/theme-banner1.jpg",
             "image_overlay_opacity": 20,
             "image_height": "medium",
-            "desktop_content_position": "middle-center",
+            "desktop_content_position": "top-left",
             "desktop_content_alignment": "center",
             "heading": "Image with text",
             "heading_size": "h1",
             "subtext": "1346463 461635468 4134864163",
-            "text_style": "caption-with-letter-spacing",
-            "button_label_1": "Button label",
-            "button_link_1": ""
+            "text_style": "body",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all"
           }
         }
       },
