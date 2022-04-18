@@ -182,27 +182,31 @@
         "06c66019-d7c0-4734-bc13-4a293eb31645": {
           "type": "offer",
           "settings": {
+            "image_overlay_opacity": 0,
+            "image_height": "medium",
+            "desktop_content_position": "middle-center",
+            "desktop_content_alignment": "center",
             "heading": "Image with text",
             "heading_size": "h1",
-            "caption": "Add a tagline",
+            "subtext": "SJHDGLK DHGlsdg adjhfksjfglksdjfh adsfhlasdk",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label_1": "Button label",
+            "button_link_1": ""
           }
         },
         "b8b18718-d91d-45ca-a31b-bb9a27782282": {
           "type": "offer",
           "settings": {
+            "image_overlay_opacity": 0,
+            "image_height": "medium",
+            "desktop_content_position": "middle-center",
+            "desktop_content_alignment": "center",
             "heading": "Image with text",
             "heading_size": "h1",
-            "caption": "Add a tagline",
+            "subtext": "1346463 461635468 4134864163",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label_1": "Button label",
+            "button_link_1": ""
           }
         }
       },
@@ -211,8 +215,6 @@
         "b8b18718-d91d-45ca-a31b-bb9a27782282"
       ],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
